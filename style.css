@@ -68,3 +68,8 @@ h1{font-size:clamp(35px,7vw,65px);font-weight:500;line-height:.95;margin:0;color
  .bubble{font-size:18px;min-width:230px}
  .paper{padding:30px 25px}
 }
+
+/* FIX: make the hidden letter actually disappear */
+.letter[hidden] {
+  display: none;
+}
