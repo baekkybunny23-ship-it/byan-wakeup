@@ -21,9 +21,6 @@
         <div class="clock-face">
           <span class="num n12">12</span><span class="num n3">3</span>
           <span class="num n6">6</span><span class="num n9">9</span>
-          <span class="tick t1"></span><span class="tick t2"></span>
-          <span class="tick t3"></span><span class="tick t4"></span>
-          <span class="tick t5"></span><span class="tick t6"></span>
           <div class="clock-hand hour" id="hour"></div>
           <div class="clock-hand minute" id="minute"></div>
           <div class="clock-hand second" id="second"></div>
@@ -35,9 +32,17 @@
       <div class="bed-back"></div>
       <div class="bed">
         <div class="pillow"></div>
-        <button id="byan" class="byan" type="button" aria-label="Wake Byan">
+
+        <button id="byan" class="byan sleeping" type="button" aria-label="Wake Byan">
           <img id="byanImage" src="assets/byan-sleeping.png" alt="Chibi Byan sleeping" />
         </button>
+
+        <div class="sleep-zzz" id="sleepZzz" aria-hidden="true">
+          <span>Z</span>
+          <span>Z</span>
+          <span>z</span>
+        </div>
+
         <div class="blanket"></div>
       </div>
 
