@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#eadbd0">
+  <title>Wake Up, Byan ♡</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="site">
+    <button class="sound" id="soundToggle" type="button" aria-label="Toggle clock sound">🔇 sound off</button>
+
+    <header class="intro">
+      <p class="eyebrow">A TINY MORNING SURPRISE</p>
+      <h1>it's still morning...</h1>
+      <p class="sub">and someone is still sleeping.</p>
+    </header>
+
+    <section class="room" aria-label="Byan's bedroom">
+      <div class="wall-clock" aria-label="clock">
+        <div class="clock-face">
+          <span class="num n12">12</span>
+          <span class="num n3">3</span>
+          <span class="num n6">6</span>
+          <span class="num n9">9</span>
+          <span class="clock-hand hour" id="hourHand"></span>
+          <span class="clock-hand minute" id="minuteHand"></span>
+          <span class="clock-hand second" id="secondHand"></span>
+          <span class="pin"></span>
+        </div>
+        <p>tick... tock...</p>
+      </div>
+
+      <div class="wake-note">maybe you can wake<br>him up? ♡</div>
+
+      <div class="bed-back"></div>
+      <div class="bed">
+        <div class="pillow"></div>
+
+        <div class="byan-area">
+          <button class="byan sleeping" id="byan" type="button" aria-label="Wake Byan">
+            <img id="byanImage" src="assets/byan-sleeping.png" alt="Sleeping Byan">
+          </button>
+
+          <div class="sleep-zzz" id="sleepZzz" aria-hidden="true">
+            <span>Z</span><span>Z</span><span>Z</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="dialogue" aria-live="polite">
+      <p class="stage" id="stage">ROUND ONE — HE'S BARELY AWAKE</p>
+      <div class="bubble" id="bubble">5 minutes please...</div>
+      <div class="counter" id="counter">0 / 9</div>
+    </section>
+
+    <div class="letter" id="letter" hidden>
+      <article class="paper">
+        <button class="close-letter" id="closeLetter" type="button" aria-label="Close letter">♡</button>
+        <p class="letter-small">finally...</p>
+        <h2>Good morning,<br>Byan. ♡</h2>
+        <p>I know you're probably still sleepy, but I wanted to leave you something to wake up to.</p>
+        <p>So before you disappear under that blanket again, please remember that someone is thinking about you this morning.</p>
+        <p class="signature">— Inu</p>
+        <button class="again" id="again" type="button">wake him again ♡</button>
+      </article>
+    </div>
+
+    <p class="bottom-hint">CLICK BYAN TO WAKE HIM ♡</p>
+  </main>
+
+  <audio id="clockAudio" src="assets/clock.wav" loop preload="auto"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
