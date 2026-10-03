@@ -1,16 +1,14 @@
-BYAN WAKE-UP SURPRISE ♡
+BYAN WAKE UP SURPRISE — V3
 
-Open index.html in a browser.
+This version fixes:
+- Transparent/cutout Byan PNG assets (speech bubbles/background are removed as much as possible).
+- Idle breathing animation while Byan is sleeping.
+- Floating Zzz animation while he is sleeping.
+- The "maybe you can wake him up?" note is moved beside the clock.
+- Letter overlay can be closed with "wake him again ♡".
 
-Interaction:
-- Click Byan 1–3 times: "5 minutes pplease..."
-- Click 4–6 times: "5 more minutes, please?"
-- Click 7–9 times: "okayy, im awake!"
-- After click 9, a letter appears.
-
-Assets:
-- Four cropped chibi Byan poses from the approved character sheet.
-- clock.wav is a simple original tick-tock sound included so the project works immediately.
-
-To use the REAL clock recording from your calls:
-replace assets/clock.wav with your own recording (keep the same filename).
+GitHub Pages:
+1. Upload/replace the contents of this folder in your repository.
+2. Keep index.html, style.css and script.js in the repository root.
+3. Keep the assets folder in the repository root.
+4. Settings > Pages > Deploy from a branch > main > /(root).
