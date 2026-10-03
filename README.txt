@@ -1,14 +1,14 @@
-BYAN WAKE UP SURPRISE — V3
+BYAN WAKE-UP SURPRISE — V5
 
-This version fixes:
-- Transparent/cutout Byan PNG assets (speech bubbles/background are removed as much as possible).
-- Idle breathing animation while Byan is sleeping.
-- Floating Zzz animation while he is sleeping.
-- The "maybe you can wake him up?" note is moved beside the clock.
-- Letter overlay can be closed with "wake him again ♡".
+This version uses the user's cleaned Byan assets and the newly supplied clock.wav.
+
+Files:
+- index.html
+- style.css
+- script.js
+- .nojekyll
+- assets/
 
 GitHub Pages:
-1. Upload/replace the contents of this folder in your repository.
-2. Keep index.html, style.css and script.js in the repository root.
-3. Keep the assets folder in the repository root.
-4. Settings > Pages > Deploy from a branch > main > /(root).
+Use Settings -> Pages -> Deploy from a branch -> main -> /(root) -> Save.
+GitHub Pages publishes static HTML/CSS/JS files from the selected source.
